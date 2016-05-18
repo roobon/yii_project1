@@ -11,7 +11,8 @@ return array(
 
 	// preloading 'log' component
 	'preload'=>array('log'),
-
+	'theme'=>'jumpforjoy',
+	
 	// autoloading model and component classes
 	'import'=>array(
 		'application.models.*',

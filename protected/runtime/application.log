@@ -266,3 +266,34 @@ Stack trace:
 REQUEST_URI=/yii_hasan/www/index.php/users/create
 HTTP_REFERER=http://localhost/yii_hasan/www/index.php/users/create
 ---
+2016/05/18 21:44:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "print.css".' in D:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('print.css')
+#1 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('print.css')
+#2 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/print.css')
+#3 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\yii_project1\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii_project1/www/site/print.css
+HTTP_REFERER=http://localhost/yii_project1/www/site/index
+---
+2016/05/18 21:44:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "print.css".' in D:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('print.css')
+#1 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\yii_project1\www\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii_project1/www/print.css
+HTTP_REFERER=http://localhost/yii_project1/www/users
+---
+2016/05/18 21:45:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "print.css".' in D:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('print.css')
+#1 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('print.css')
+#2 D:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('users/print.css')
+#3 D:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\xampp\htdocs\yii_project1\www\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii_project1/www/users/print.css
+HTTP_REFERER=http://localhost/yii_project1/www/users/create
+---
