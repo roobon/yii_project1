@@ -7,7 +7,7 @@
 Web Application with Yii Framework
 Yii Version: 1.1.15
 
-This project is dedecated for WPSI Students Round 26
+<p>This project is dedecated for WPSI Students Round 26</p>
 ###############################################################
 IBCS-PRIMAX Software Bangladesh Ltd.
 House # 51, Road # 10/A, Dhanmondi R/A, Dhaka-1209, Bangladesh
