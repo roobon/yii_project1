@@ -1,4 +1,9 @@
-# yii_project1
+<html>
+<head>
+	<title>This is Yii Project</title>
+</head>
+<body>
+<h1># yii_project1</h1>
 Web Application with Yii Framework
 Yii Version: 1.1.15
 
@@ -30,3 +35,6 @@ Students Information
 
 
 ###############################################################
+
+</body>
+</html>
